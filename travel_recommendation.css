@@ -1,0 +1,132 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div a
+{
+  margin-left: 10px;
+}
+
+
+#bg
+{
+  background: url(img_02.jpg) no-repeat center/cover;
+  
+}
+
+
+.mainTitle
+{ 
+    line-height: 1.2;
+    margin-top: 250px;
+}
+
+.mainTitle p.top
+{
+    text-transform: uppercase;
+    text-wrap: balance;
+    font-size: 50px; 
+    letter-spacing: 5px;
+    color:#fff;
+    margin-bottom: 70px;
+}
+
+.mainTitle p.top span
+{
+    color:#000;
+}
+
+.mainTitle h1
+{
+    text-transform: uppercase; 
+    font-size: 70px; 
+    letter-spacing: 15px;
+    font-weight: 600;
+    margin-bottom:150px;
+    color:#000;
+}
+
+.mainTitle h3
+{
+    text-transform: uppercase; 
+    margin-bottom:40px;
+    color:#fff;
+}
+
+.mainTitle p.bottom
+{
+    font-size: 20px; 
+    color:#fff; 
+}
+
+.textBox
+{
+    /* background-color: black;
+    opacity: 0.9; */
+    /* If you do not want to inherit the child opacity from the parent in CSS, instead of using opacity set a background-color with rgba, where 'a' is the level of transparency.  */
+    background-color: rgba(0,0,0,0.65);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+
+.img-bg 
+{
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+
+}
+
+
+
+.result
+{
+    font-size: 15px; 
+    color:#fff; 
+}
+
+
+/* Basic CSS for the form elements */
+body {
+  font-family: Arial, sans-serif;
+  
+  font-size: 16px; 
+  line-height: 1.5;
+
+}
+
+
+div {
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 30px;
+  padding: 10px 10px;
+  margin-right: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  
+}
+
+#btnSearch
+{
+  margin-right: 10px;
+}
+  
